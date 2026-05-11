@@ -18,7 +18,7 @@ The project was developed under a simulated budget of **$160,000** as part of an
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - React.js
 - Firebase Firestore
