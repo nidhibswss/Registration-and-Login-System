@@ -1,11 +1,11 @@
 # Member Registration & Authentication System
 
 A web-based registration and login module for the Springfield Public Library Digital Library Management System.  
-Built using **React.js** and **Firebase Firestore** as part of CPS 714 – Assignment 1.
+Built using **React.js** and **Firebase Firestore** as part of CPS 714 (Software project Management)– Assignment 1 and 2
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This system digitizes the library’s traditional paper-based registration process by enabling users to:
 
@@ -15,18 +15,6 @@ This system digitizes the library’s traditional paper-based registration proce
 - Securely store and retrieve data using Firebase Firestore
 
 The project was developed under a simulated budget of **$160,000** as part of an academic software engineering assignment.
-
----
-
-## 👥 Team Members
-
-| Member | Role | Hours |
-|--------|------|------|
-| SH – Sameeh Hasayen | Project Manager | 33h |
-| KA – Khushi Ahir | Frontend Developer | 33h |
-| HN – Hachi Ndu | QA / Docs Lead | 20h |
-| MB – Michelle Bui | Security Analyst | 17h |
-| NB – Nidhi Biswas | Backend Developer | 34h |
 
 ---
 
@@ -40,25 +28,25 @@ The project was developed under a simulated budget of **$160,000** as part of an
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 📝 Registration
+###  Registration
 - Online form with full validation
 - Collects: name, email, phone, DOB, PIN
 - Generates a unique **8-digit library card number**
 - Stores user data in Firestore
 
-### 🔐 Authentication
+###  Authentication
 - Login using card number + PIN
 - Firestore-based credential verification
 - Session handling using localStorage
 
-### 🏠 User Dashboard
+### User Dashboard
 - Displays user profile after login
 - Logout functionality clears session
 - Navigation to additional modules
 
-### ☁️ Backend (Firebase)
+###  Backend (Firebase)
 - Firestore database integration
 - Members collection with structured schema:
   - name, email, phone, DOB
@@ -66,7 +54,7 @@ The project was developed under a simulated budget of **$160,000** as part of an
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 /pages
@@ -85,7 +73,7 @@ The project was developed under a simulated budget of **$160,000** as part of an
 
 ---
 
-## 🧪 Testing & QA
+## Testing & QA
 
 Conducted by QA and Security teams:
 
@@ -98,7 +86,7 @@ Conducted by QA and Security teams:
 
 ---
 
-## 🧭 Project Timeline
+##  Project Timeline
 
 ### Week 1 (Oct 2–5)
 - Project planning and initiation
@@ -129,16 +117,16 @@ Conducted by QA and Security teams:
 
 ---
 
-## 📦 Deployment
+## Deployment
 
 Deployed using Firebase Hosting.
 
 ---
 
-## 📌 Notes
+##  Notes
 
-- This project was developed as part of CPS 714 Software Engineering coursework.
-- Focus was on system design, authentication flow, and database integration using Firebase.
+- This project was developed by a group of five members for CPS 714 : Software Project Management
+- Focus was on software project management, system design, authentication flow, and database integration using Firebase.
 - All sensitive data handling follows basic security best practices.
 
 ---
